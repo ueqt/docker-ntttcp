@@ -31,5 +31,5 @@ jobs:
         with:
           context: ./linux
           push: true
-          tags: linux
+          tags: ueqt/ntttcp:linux
           labels: ${{ steps.meta.outputs.labels }}
