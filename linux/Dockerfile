@@ -7,5 +7,5 @@ RUN git clone https://github.com/Microsoft/ntttcp-for-linux
 RUN cd ntttcp-for-linux/src && make && make install
 
 EXPOSE 5000-5200
-ENTRYPOINT ["ntttcp", "-r", "-t", "300"]
+ENTRYPOINT ["ntttcp", "-r", "-t", "300", "-V"]
 
